@@ -2,14 +2,6 @@ package com.expedia.api.lodging.query.model
 
 import com.expediagroup.graphql.annotations.GraphQLDescription
 
-@GraphQLDescription("Property results for a destination")
-data class PropertyResults(
-    @GraphQLDescription("Properties in a destination")
-    val properties: List<Property>,
-    @GraphQLDescription("Filter options to narrow down properties")
-    val filters: List<FilterViewModel>
-)
-
 data class Property(
     @GraphQLDescription("Property id")
     val id: Long,

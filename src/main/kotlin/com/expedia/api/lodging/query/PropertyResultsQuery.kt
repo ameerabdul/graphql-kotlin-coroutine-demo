@@ -10,7 +10,5 @@ class PropertyResultsQuery(
     private val propertyResultsService: PropertyResultsService
 ): Query {
 
-    suspend fun propertyResults(): PropertyResults {
-        return propertyResultsService.propertyResults()
-    }
+    suspend fun propertyResults() = PropertyResults(propertyResultsService)
 }
