@@ -2,6 +2,10 @@ package com.expedia.api.lodging.query.model
 
 import com.expediagroup.graphql.annotations.GraphQLDescription
 
+/**
+ * TODO(1): Convert this `Property` data class to function equivalent
+ * This allows GraphQL-Kotlin to only execute fields which are queried for.
+ */
 data class Property(
     @GraphQLDescription("Property id")
     val id: Long,

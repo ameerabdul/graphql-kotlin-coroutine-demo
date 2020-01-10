@@ -20,9 +20,13 @@ class PropertyResultsService(
     suspend fun properties(
         gaiaNeighborhoodResponse: Map<Long, Region>
     ): List<Property> {
+        // Don't worry about making `gaiaPropertyResponse` lazy. Lets assume we always need this call
         val gaiaPropertyResponse = gaiaApi.getProperties()
+
+        // TODO(2): Update `propertyContentResponse` to a lazy Coroutine
         val propertyContentResponse = contentApi.getPropertyContent()
 
+        // TODO(3): Pass in both `propertyContentResponse` and `gaiaNeighborhoodResponse` as `Deferred`
         return propertiesAdapter.adapt(gaiaPropertyResponse, propertyContentResponse, gaiaNeighborhoodResponse)
     }
 

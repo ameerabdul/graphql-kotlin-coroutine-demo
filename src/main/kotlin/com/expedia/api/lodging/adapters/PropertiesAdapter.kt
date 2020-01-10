@@ -13,6 +13,10 @@ class PropertiesAdapter {
         gaiaProperties.map {
             val propertyId = it.propertyId
             val neighborhoodId = it.neighborhoodId
+            /*
+             * TODO(4): Pass in both `propertyContent` and `neighborhoods` as `Deferred`
+             *  and update `Property` to await at appropriate place
+             */
             Property(propertyId, propertyContent[propertyId]?.name, neighborhoods[neighborhoodId]?.name)
         }
 }
