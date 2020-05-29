@@ -24,7 +24,7 @@ class PropertyResults(
 
     @GraphQLDescription("Properties in a destination")
     suspend fun properties(): List<Property> = propertyResultsService.properties(
-        gaiaNeighborhoodResponse.await()
+        gaiaNeighborhoodResponse
     )
 
     @GraphQLDescription("Filter options to narrow down properties")

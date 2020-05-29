@@ -8,7 +8,7 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.expedia.api.lodging</groupId>
+	<groupId>com.graphql.kotlin.coroutine.demo</groupId>
 	<artifactId>graphql-kotlin-coroutine-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>graphql-kotlin-coroutine-demo</name>
