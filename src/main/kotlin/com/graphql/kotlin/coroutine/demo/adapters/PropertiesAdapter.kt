@@ -1,9 +1,9 @@
-package com.expedia.api.lodging.adapters
+package com.graphql.kotlin.coroutine.demo.adapters
 
-import com.expedia.api.lodging.client.GaiaProperty
-import com.expedia.api.lodging.client.PropertyContent
-import com.expedia.api.lodging.client.Region
-import com.expedia.api.lodging.query.model.Property
+import com.graphql.kotlin.coroutine.demo.client.GaiaProperty
+import com.graphql.kotlin.coroutine.demo.client.PropertyContent
+import com.graphql.kotlin.coroutine.demo.client.Region
+import com.graphql.kotlin.coroutine.demo.query.model.Property
 import org.springframework.stereotype.Component
 
 @Component

@@ -1,7 +1,7 @@
-package com.expedia.api.lodging.query.model
+package com.graphql.kotlin.coroutine.demo.query.model
 
-import com.expedia.api.lodging.client.GaiaApi
-import com.expedia.api.lodging.service.PropertyResultsService
+import com.graphql.kotlin.coroutine.demo.client.GaiaApi
+import com.graphql.kotlin.coroutine.demo.service.PropertyResultsService
 import com.expediagroup.graphql.annotations.GraphQLDescription
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart

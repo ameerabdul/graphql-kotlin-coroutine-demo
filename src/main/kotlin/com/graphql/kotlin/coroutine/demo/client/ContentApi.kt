@@ -1,4 +1,4 @@
-package com.expedia.api.lodging.client
+package com.graphql.kotlin.coroutine.demo.client
 
 import kotlinx.coroutines.delay
 import org.slf4j.LoggerFactory

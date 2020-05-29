@@ -1,4 +1,4 @@
-package com.expedia.api.lodging.query.model
+package com.graphql.kotlin.coroutine.demo.query.model
 
 import com.expediagroup.graphql.annotations.GraphQLDescription
 

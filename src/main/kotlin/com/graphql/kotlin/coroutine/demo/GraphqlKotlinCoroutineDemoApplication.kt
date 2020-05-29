@@ -1,4 +1,4 @@
-package com.expedia.api.lodging
+package com.graphql.kotlin.coroutine.demo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

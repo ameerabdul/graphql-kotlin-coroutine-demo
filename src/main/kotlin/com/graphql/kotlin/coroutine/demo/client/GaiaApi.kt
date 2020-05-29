@@ -1,6 +1,6 @@
-package com.expedia.api.lodging.client
+package com.graphql.kotlin.coroutine.demo.client
 
-import com.expedia.api.lodging.query.model.Neighborhood
+import com.graphql.kotlin.coroutine.demo.query.model.Neighborhood
 import kotlinx.coroutines.delay
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service

@@ -1,8 +1,8 @@
-package com.expedia.api.lodging.adapters
+package com.graphql.kotlin.coroutine.demo.adapters
 
-import com.expedia.api.lodging.client.Amenity
-import com.expedia.api.lodging.client.Region
-import com.expedia.api.lodging.query.model.FilterViewModel
+import com.graphql.kotlin.coroutine.demo.client.Amenity
+import com.graphql.kotlin.coroutine.demo.client.Region
+import com.graphql.kotlin.coroutine.demo.query.model.FilterViewModel
 import org.springframework.stereotype.Component
 
 @Component
